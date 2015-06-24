@@ -1,0 +1,70 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-family: "Trechuchet MS", sans-serif;
+}
+
+input {
+	margin-top: 10px;
+}
+
+.selectDiv {
+	text-align: center;
+}
+
+label {
+	padding-left: 5px;
+}
+
+h2 {
+	margin: 5px auto;
+	color: #555;
+	text-align: center;
+}
+
+.grid {
+	width: 480px;
+	height: 480px;
+	margin: 10px auto 0;
+	border: 5px solid #444;
+}
+
+.grid:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.grid-box{
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin: 0;
+}
+
+button {
+	width: 70px;
+	height: 70px;
+	margin: 20px auto 0;
+	display: block;
+	background-color: white;
+	border: 2px solid #666;
+	/*-webkit-appearance: none;*/
+	border-radius: 100%;
+	box-shadow: inset 0px 0px 20px #AAA;
+}
+
+button:focus{
+	outline: none;
+}
+
+button:hover{
+	box-shadow: inset 0px 0px 25px #AAA;
+	border: 2px solid #555;
+}
+
+button:active {
+	box-shadow: inset 0 0 30px #999;
+}
