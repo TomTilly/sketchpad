@@ -8,17 +8,30 @@
 		<script src="javascript/modernizr.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<div class="selectDiv">
-			<button>Reset Grid</button>
-			<h2>Hover Effect</h2>
-			<input type="radio" checked="checked" name="coloringType" value="standard" id="standard" /><label for="standard">Standard</label>
-			<input type="radio" name="coloringType" value="rando" id="rando" /><label for="rando">Random Colors</label>
-			<input type="radio" name="coloringType" value="trail" id="trail" /><label for="trail">Trail</label>
-			<input type="radio" name="coloringType" value="shade" id="shade" /><label for="shade">Shading</label>
+		<div class="sideBar">
+			<h1>Virtual Sketchpad</h1>
+			
+			<p>Draw to your heart's content with this virtual sketchpad! Simply move your mouse over the sketchpad to start drawing. You can change the resolution of the sketchpad and the drawing style by pressing "Reset."</p>
+			
+			<p>To activate a new drawing style, select the new style and press "Reset." The new style only appears after the reset has taken place.</p>
+			
+			<p>When prompted for new dimensions, enter the number of boxes per row/column. For example, if you want a sketchpad that's 20 &#215; 20, enter "20." The larger the number, the more fine grain control you'll have.</p>
+			
+			<p>The maximum size is 100 &#215; 100.</p>
+			
+			<address>Site by Tom Tillistrand</address>
 		</div>
-		
-		<div class="grid"></div>
-		
+		<div class="wrapper">
+			<div class="selectDiv">
+				<button>Reset</button>
+				<h2>Drawing Style</h2>
+				<input type="radio" checked="checked" name="coloringType" value="standard" id="standard" /><label for="standard">Standard</label>
+				<input type="radio" name="coloringType" value="rando" id="rando" /><label for="rando">Random Colors</label>
+				<input type="radio" name="coloringType" value="fade" id="fade" /><label for="fade">Fade</label>
+				<input type="radio" name="coloringType" value="shade" id="shade" /><label for="shade">Shading</label>
+			</div>
+			<div class="sketchpad"></div>
+		</div>
 		<script src="javascript/jquery-1.11.2.js" type="text/javascript"></script>
 		<script src="javascript/main-script.js" type="text/javascript"></script>
 	</body>
