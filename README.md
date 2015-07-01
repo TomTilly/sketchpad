@@ -4,11 +4,11 @@ by Tom Tillistrand
 
 ### Overview
 
-This website contains a virtual sketchpad. By default, the sketchpad is composed of a 16x16 set of small boxes, each of which activate when you hover your mouse over them. The effect that's activated depends on which "Hover Effect" you have selected.
+This website contains a virtual sketchpad. By default, the sketchpad is composed of a 16x16 set of small boxes, each of which change color when you hover your mouse over them. The effect and color depends on which "Drawing Style" you have selected.
 
 ### Resetting the sketchpad
 
-Pressing "Reset sketchpad" allows you to resize the resolution of the sketchpad. The higher the resolution, the smaller the individual box size and greater fine grain control you have.
+Pressing "Reset" allows you to resize the resolution of the sketchpad. The higher the resolution, the smaller the individual box size and greater fine grain control you have.
 
 After pressing "Reset", you'll be prompted to input the resolution you'd like to work with. Since the sketchpad is a square, you only need to enter one of the dimensions. For example, for a sketchpad that's 40 x 40, you would enter "40" into the input.
 
