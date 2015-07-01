@@ -29,4 +29,4 @@ This site was created as an exercise in JavaScript and jQuery DOM manipulation. 
 
 ### Credits
 
-All code created by Tom Tillistrand. Contact at ny.prosource@gmail.com
+Created by Tom Tillistrand. Contact at ny.prosource@gmail.com
