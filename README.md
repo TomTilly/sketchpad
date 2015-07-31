@@ -1,6 +1,5 @@
 Sketchpad
 ========
-by Tom Tillistrand
 
 ### Overview
 
